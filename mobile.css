@@ -2,7 +2,8 @@
   padding: 0.8em;
   color: white;
   font-family: Roboto, sans-serif:
-  background-image: url(https://google-developers.appspot.com/web/fundamentals/resources/samples/getting-started/your-first-multi-screen-site/hero.jpg);
+  background-image:url("https://google-developers.appspot.com/web/fundamentals/resources/samples/getting-started/your-first-multi-screen-site/hero.jpg");
+  background-image:url('https://google-developers.appspot.com/web/fundamentals/resources/samples/getting-started/your-first-multi-screen-site/hero.jpg');
   background-size: cover;
 }
 
