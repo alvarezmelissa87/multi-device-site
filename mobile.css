@@ -154,15 +154,28 @@ footer {
   padding-top: 20px;
 }
 
+table {
+  margin-top: 26px;
+  width: 100%;
+}
+
+thead {
+  font-weight: bold;
+}
+
+tbody {
+  text-align: center;
+}
+
 @media screen and (min-width: 600px) {
+
+  .headline {
+    padding: 20px 5%;
+  }
 
   .container {
     margin: auto;
     max-width: 800px;
-  }
-
-  .headline{
-    padding: 20px 5%;
   }
 
   .headline .blurb {
@@ -186,6 +199,16 @@ footer {
     clear: both;
   }
 
+  .section1, .section2, .section3 {
+    box-sizing: border-box;
+    padding: 10px 20% 80px 20%;
+  }
+
+  .section1 h2, .section2 h2, .section3 h2 {
+    margin-top: 0;
+    font-size: 60px;
+  }
+
   .section1 ul {
     box-sizing: border-box;
     float: left;
@@ -199,8 +222,8 @@ footer {
     box-sizing: border-box;
   }
 
-  .section2 {
-    clear:both;
+  .section1 br {
+    clear: both;
   }
 
   .section2 div img {
@@ -236,6 +259,7 @@ footer {
     border-right: 2px solid transparent;
     position: absolute;
     top: 0;
+    left: 0;
     bottom: 0;
     width: 33%;
     max-height: 100%;
